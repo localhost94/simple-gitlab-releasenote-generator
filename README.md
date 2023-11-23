@@ -11,9 +11,13 @@ START_COMMIT_ID
 END_COMMIT_ID
 ```
 `GITLAB_API_URL` = URL of Gitlab APIs
+
 `PRIVATE_TOKEN` = Private access token to access Gitlab APIs
+
 `PROJECT_ID` = ID of project repository, this can be obtained from project overview page of repository.
+
 `START_COMMIT_ID` = First commit ID you want to make release for. Example: `ef56036d134287f5e5d94564761f087aeadf0509` this is the commit id since the last release.
+
 `END_COMMIT_ID` = Last commit ID you want to make release for. Example: `4211f708c04140e67ad684f5f063c1c05c4617e4`
 
 ## How to Use
